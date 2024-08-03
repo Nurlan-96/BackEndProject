@@ -1,0 +1,45 @@
+﻿@using WebApplication1.Areas.AdminArea.ViewModels.Blogs
+@model BlogCreateVM
+<div class="conatiner">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Blog Update</h4>
+                    <form asp-action="update" class="forms-sample" enctype="multipart/form-data" method="post">
+                        <div class="form-group">
+                            <label asp-for="Name"></label>
+                            <input asp-for="Name" type="text" class="form-control" placeholder="Name">
+                            <span class="text-danger" asp-validation-for="Name"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Content"></label>
+                            <input asp-for="Content" type="text" class="form-control" placeholder="Content">
+                            <span class="text-danger" asp-validation-for="Content"></span>
+                        </div> 
+                        <div class="form-group">
+                            <label asp-for="Image"></label>
+                            <input asp-for="Image" type="file" class="form-control" placeholder="Add an Image">
+                            <span class="text-danger" asp-validation-for="Image"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary me-2">Update</button>
+                        <a asp-action="index" class="btn btn-light">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li><img src="~/img/blog/@Model.ImageUrl" alt="Alternate Text" /></li>
+                    </ul>
+                    <h4 class="card-title">@Model.Name</h4>
+                    <p class="card-description">
+                        Description: @Model.Content
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

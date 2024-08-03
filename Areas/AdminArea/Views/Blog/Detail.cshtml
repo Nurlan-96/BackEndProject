@@ -1,0 +1,20 @@
+﻿@model Blog
+<div class="conatiner">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li><img src="~/img/blog/@Model.ImageUrl" alt="Alternate Text" /></li>
+                </ul>
+                <h4 class="card-title">@Model.Name</h4>
+                <p class="card-description">
+                    Description: @Model.Content
+                </p>
+                <p>
+                    Position: @Model.CreatedDate.ToString("dd/MMM/yyyy")
+                </p>
+                <a asp-action="index" class="btn btn-outline-primary">Go Back</a>
+            </div>
+        </div>
+    </div>
+</div>

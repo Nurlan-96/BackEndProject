@@ -1,0 +1,84 @@
+﻿@using WebApplication1.Areas.AdminArea.ViewModels.EventVM
+@model EventUpdateVM
+<div class="conatiner">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Event Update</h4>
+                    <form asp-action="update" class="forms-sample" enctype="multipart/form-data" method="post">
+                        <div class="form-group">
+                            <label asp-for="Name"></label>
+                            <input asp-for="Name" type="text" class="form-control" placeholder="Name">
+                            <span class="text-danger" asp-validation-for="Name"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Description"></label>
+                            <input asp-for="Description" type="text" class="form-control" placeholder="Description">
+                            <span class="text-danger" asp-validation-for="Description"></span>
+                        </div> <div class="form-group">
+                            <label asp-for="Venue"></label>
+                            <input asp-for="Venue" type="text" class="form-control" placeholder="Venue">
+                            <span class="text-danger" asp-validation-for="Venue"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="SpeakerEvent"></label>
+                            <input asp-for="SpeakerEvent" type="checkbox" class="form-control" placeholder="Speakers">
+                            <span class="text-danger" asp-validation-for="SpeakerEvent"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Date"></label>
+                            <input asp-for="Date" type="date" class="form-control" placeholder="Date">
+                            <span class="text-danger" asp-validation-for="Date"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="StartTime"></label>
+                            <input asp-for="StartTime" type="time" class="form-control" placeholder="Start Time">
+                            <span class="text-danger" asp-validation-for="StartTime"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="EndTime"></label>
+                            <input asp-for="EndTime" type="time" class="form-control" placeholder="End Time">
+                            <span class="text-danger" asp-validation-for="EndTime"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Image"></label>
+                            <input asp-for="Image" type="file" class="form-control" placeholder="Add an Image">
+                            <span class="text-danger" asp-validation-for="Image"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary me-2">Update</button>
+                        <a asp-action="index" class="btn btn-light">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li><img src="~/img/teacher/@Model.ImageUrl" alt="Alternate Text" /></li>
+                    </ul>
+                    <h4 class="card-title">@Model.Name</h4>
+                    <p class="card-description">
+                        Description: @Model.Description
+                    </p>
+                    <p>
+                        Position: @Model.Venue
+                    </p>
+                    <p>
+                        Faculty: @Model.SpeakerEvent
+                    </p>
+                    <p>
+                        Faculty: @Model.Date
+                    </p>
+                    <p>
+                        Number: @Model.StartTime
+                    </p>
+                    <p>
+                        Email: @Model.EndTime
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,102 @@
+﻿@using WebApplication1.Areas.AdminArea.ViewModels;
+@model TeacherUpdateVM
+<div class="conatiner">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Teacher Update</h4>
+                    <form asp-action="update" class="forms-sample" enctype="multipart/form-data" method="post">
+                        <div class="form-group">
+                            <label asp-for="Name"></label>
+                            <input asp-for="Name" type="text" class="form-control" placeholder="Name">
+                            <span class="text-danger" asp-validation-for="Name"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Description"></label>
+                            <input asp-for="Description" type="text" class="form-control" placeholder="Description">
+                            <span class="text-danger" asp-validation-for="Description"></span>
+                        </div> <div class="form-group">
+                            <label asp-for="Position"></label>
+                            <input asp-for="Position" type="text" class="form-control" placeholder="Position">
+                            <span class="text-danger" asp-validation-for="Position"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Faculty"></label>
+                            <input asp-for="Faculty" type="text" class="form-control" placeholder="Faculty">
+                            <span class="text-danger" asp-validation-for="Faculty"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Degree"></label>
+                            <input asp-for="Degree" type="text" class="form-control" placeholder="Degree">
+                            <span class="text-danger" asp-validation-for="Degree"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Number"></label>
+                            <input asp-for="Number" type="number" class="form-control" placeholder="Number">
+                            <span class="text-danger" asp-validation-for="Number"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email"></label>
+                            <input asp-for="Email" type="email" class="form-control" placeholder="Email">
+                            <span class="text-danger" asp-validation-for="Email"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Experience"></label>
+                            <input asp-for="Experience" type="text" class="form-control" placeholder="Experience">
+                            <span class="text-danger" asp-validation-for="Experience"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Social"></label>
+                            <input asp-for="Social" type="text" class="form-control" placeholder="Social Media Link">
+                            <span class="text-danger" asp-validation-for="Social"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Hobbies"></label>
+                            <input asp-for="Hobbies" type="text" class="form-control" placeholder="Hobbies">
+                            <span class="text-danger" asp-validation-for="Hobbies"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Image"></label>
+                            <input asp-for="Image" type="file" class="form-control" placeholder="Add an Image">
+                            <span class="text-danger" asp-validation-for="Image"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary me-2">Update</button>
+                        <a asp-action="index" class="btn btn-light">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li><img src="~/img/teacher/@Model.ImageUrl" alt="Alternate Text" /></li>
+                    </ul>
+                    <h4 class="card-title">@Model.Name</h4>
+                    <p class="card-description">
+                        Description: @Model.Description
+                    </p>
+                    <p>
+                        Position: @Model.Position
+                    </p>
+                    <p>
+                        Faculty: @Model.Faculty
+                    </p>
+                    <p>
+                        Faculty: @Model.Degree
+                    </p>
+                    <p>
+                        Number: @Model.Number
+                    </p>
+                    <p>
+                        Email: @Model.Email
+                    </p>
+                    <p>
+                        Link: @Model.Social
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+﻿@model Event
+<div class="conatiner">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li><img src="~/img/event/@Model.ImageUrl" alt="Alternate Text" /></li>
+                </ul>
+                <h4 class="card-title">@Model.Name</h4>
+                <p class="card-description">
+                    Description: @Model.Description
+                </p>
+                <p>
+                    Position: @Model.Date.ToString("dd/MMM/yyyy")
+                </p>
+                <p>
+                    Faculty: @Model.StartTime
+                </p>
+                <p>
+                    Faculty: @Model.EndTime
+                </p>
+                <p>
+                    Number: @Model.SpeakerEvent
+                </p>
+                <a asp-action="index" class="btn btn-outline-primary">Go Back</a>
+            </div>
+        </div>
+    </div>
+</div>

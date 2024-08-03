@@ -1,0 +1,49 @@
+﻿`WYUI@model IEnumerable<Teacher>
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    ViewData["Title"] = "Teacher Index";
+
+}
+<div class="banner-area-wrapper">
+    <div class="banner-area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="banner-content-wrapper">
+                        <div class="banner-content">
+                            <h2>our teachers</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner Area End -->
+<!-- Teacher Start -->
+<div class="teacher-area pt-150 pb-105">
+    <div class="container">
+        <div class="row">
+            @foreach(var teacher in Model)
+            {
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="single-teacher mb-45">
+                        <div class="single-teacher-img">
+                            <a href="teacher-details.html"><img src="~/img/teacher/@teacher.ImageUrl" alt="teacher"></a>
+                        </div>
+                        <div class="single-teacher-content text-center">
+                            <h2><a asp-action="detail">@teacher.Name</a></h2>
+                            <h4>@teacher.Position</h4>
+                            <ul>
+                                <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="bi bi-telephone-fill"></i></a></li>
+                                <li><a href="https://www.pinterest.com/devitemsllc/"><i class="bi bi-envelope-at"></i></a></li>
+                                <li><a href="https://twitter.com/devitemsllc"><i class="bi bi-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- Teacher End -->

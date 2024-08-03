@@ -1,0 +1,77 @@
+﻿@using WebApplication1.Areas.AdminArea.ViewModels
+@model CourseCreateVM
+<div class="container">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Course Creation</h4>
+                <form asp-action="create" class="forms-sample" enctype="multipart/form-data" method="post">
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" type="text" class="form-control" placeholder="Name">
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description"></label>
+                        <input asp-for="Description" type="text" class="form-control" placeholder="Description">
+                        <span class="text-danger" asp-validation-for="Description"></span>
+                    </div> <div class="form-group">
+                        <label asp-for="StartDate"></label>
+                        <input asp-for="StartDate" type="date" class="form-control" placeholder="Start Date">
+                        <span class="text-danger" asp-validation-for="StartDate"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Duration"></label>
+                        <input asp-for="Duration" type="number" class="form-control" placeholder="Duration">
+                        <span class="text-danger" asp-validation-for="Duration"></span>
+                    </div>                    
+                    <div class="form-group">
+                        <label asp-for="ClassDuration"></label>
+                        <input asp-for="ClassDuration" type="number" class="form-control" placeholder="Class Duration">
+                        <span class="text-danger" asp-validation-for="ClassDuration"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Fee"></label>
+                        <input asp-for="Fee" type="number" class="form-control" placeholder="Fee">
+                        <span class="text-danger" asp-validation-for="Fee"></span>
+                    </div> 
+                    <div class="form-group">
+                        <label asp-for="MaxStudents"></label>
+                        <input asp-for="MaxStudents" type="number" class="form-control" placeholder="Max Students">
+                        <span class="text-danger" asp-validation-for="MaxStudents"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LanguageId"></label>
+                        <select asp-for="LanguageId" class="form-control" asp-items="ViewBag.Languages" placeholder="Language"></select>
+                        <span class="text-danger" asp-validation-for="LanguageId"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SkillLevelId"></label>
+                        <select asp-for="SkillLevelId" class="form-control" asp-items="ViewBag.SkillLevels" placeholder="Skill Level"></select>
+                        <span class="text-danger" asp-validation-for="SkillLevelId"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AssessmentId"></label>
+                        <select asp-for="AssessmentId" class="form-control" asp-items="ViewBag.Assessments" placeholder="Assessment"></select>
+                        <span class="text-danger" asp-validation-for="AssessmentId"></span>
+                    </div> 
+                    <div class="form-group">
+                        <label asp-for="TeacherId"></label>
+                        <select asp-for="TeacherId" class="form-control" asp-items="ViewBag.Teachers" placeholder="Teacher"></select>
+                        <span class="text-danger" asp-validation-for="TeacherId"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Image"></label>
+                        <input asp-for="Image" type="file" class="form-control" placeholder="Add an Image">
+                        <span class="text-danger" asp-validation-for="Image"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Create</button>
+                    <a asp-action="index" class="btn btn-light">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

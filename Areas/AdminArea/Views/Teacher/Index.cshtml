@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Teacher>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Teacher Table</h4>
+                    <a class="btn btn-outline-success" asp-action="create">Create</a>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Position</th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var teacher in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <img width="150" height="100" src="~/img/teacher/@teacher.ImageUrl" alt="" />
+                                        </td>
+                                        <td>@teacher.Name</td>
+                                        <td>@teacher.Description</td>
+                                        <td>@teacher.Position</td>
+                                        <td>
+                                            <a class="btn btn-outline-primary" asp-action="detail" asp-route-id="@teacher.Id">
+                                                <i class="mdi mdi-account-card-details"></i>
+                                            </a>
+                                            <a class="btn btn-outline-success" asp-action="update" asp-route-id="@teacher.Id">
+                                                <i class="mdi mdi-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-danger" asp-action="delete" asp-route-id="@teacher.Id">
+                                                <i class="mdi mdi-delete"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
