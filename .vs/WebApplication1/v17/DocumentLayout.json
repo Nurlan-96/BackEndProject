@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\areas\\adminarea\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:areas\\adminarea\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\areas\\adminarea\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:areas\\adminarea\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\areas\\adminarea\\viewmodels\\eventvm\\eventcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:areas\\adminarea\\viewmodels\\eventvm\\eventcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\models\\speakerevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:models\\speakerevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\models\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:models\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\areas\\adminarea\\controllers\\speakercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:areas\\adminarea\\controllers\\speakercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\areas\\adminarea\\viewmodels\\speakercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:areas\\adminarea\\viewmodels\\speakercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,114 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EventCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\ViewModels\\EventVM\\EventCreateVM.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminArea\\ViewModels\\EventVM\\EventCreateVM.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\ViewModels\\EventVM\\EventCreateVM.cs",
-              "RelativeToolTip": "Areas\\AdminArea\\ViewModels\\EventVM\\EventCreateVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T11:20:40.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Speaker.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Models\\Speaker.cs",
-              "RelativeDocumentMoniker": "Models\\Speaker.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Models\\Speaker.cs",
-              "RelativeToolTip": "Models\\Speaker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T11:18:05.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SpeakerCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\ViewModels\\SpeakerCreateVM.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminArea\\ViewModels\\SpeakerCreateVM.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\ViewModels\\SpeakerCreateVM.cs",
-              "RelativeToolTip": "Areas\\AdminArea\\ViewModels\\SpeakerCreateVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T11:06:58.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SpeakerController.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\Controllers\\SpeakerController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminArea\\Controllers\\SpeakerController.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\Controllers\\SpeakerController.cs",
-              "RelativeToolTip": "Areas\\AdminArea\\Controllers\\SpeakerController.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAEsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T11:04:07.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SpeakerEvent.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Models\\SpeakerEvent.cs",
-              "RelativeDocumentMoniker": "Models\\SpeakerEvent.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Models\\SpeakerEvent.cs",
-              "RelativeToolTip": "Models\\SpeakerEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T11:01:43.261Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Models\\Event.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Models\\Event.cs",
-              "RelativeToolTip": "Models\\Event.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "DocumentIndex": 2,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T11:00:53.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\Views\\Event\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminArea\\Views\\Event\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\Views\\Event\\Create.cshtml",
-              "RelativeToolTip": "Areas\\AdminArea\\Views\\Event\\Create.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAUwCQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-03T10:58:33.642Z",
+              "WhenOpened": "2024-08-07T08:53:39.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminArea\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Areas\\AdminArea\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Areas\\AdminArea\\Controllers\\EventController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEoAAAAkAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T15:52:23.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAC4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T10:57:16.876Z",
+              "WhenOpened": "2024-08-06T15:51:39.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T13:15:44.697Z",
               "EditorCaption": ""
             }
           ]

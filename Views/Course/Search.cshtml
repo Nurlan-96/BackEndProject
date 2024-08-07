@@ -12,13 +12,13 @@
                 <div class="course-form">
                     <form id="search" action="#">
                         <input type="search" placeholder="Search..." name="search" />
-                        <a asp-action="search" asp-controller="course">search</a>
+                        <a class="btn btn-danger" asp-action="search" asp-controller="course">search</a>
                     </form>
                 </div>
             </div>
         </div>
         <div class="row">
-                @await Component.InvokeAsync("Course", 9)
+            @await Component.InvokeAsync("_SearchPartialView")
         </div>
     </div>
 </div>   

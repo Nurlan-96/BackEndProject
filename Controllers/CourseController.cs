@@ -29,7 +29,7 @@ namespace WebApplication1.Controllers
         {
             if (string.IsNullOrWhiteSpace(text))
             {
-                return PartialView("_SearchPartialView", new List<Teacher>());
+                return PartialView("_SearchPartialView", new List<Course>());
             }
 
             var courses = _context.Courses
