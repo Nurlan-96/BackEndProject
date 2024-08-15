@@ -1,5 +1,5 @@
 ﻿
-namespace WebApplication1.HelperMethods
+namespace WebApplication1.Helper
 {
     public class Helper
     {

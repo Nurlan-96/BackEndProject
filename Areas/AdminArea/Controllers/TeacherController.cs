@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication1.Areas.AdminArea.ViewModels;
 using WebApplication1.DAL;
 using WebApplication1.Extensions;
-using WebApplication1.HelperMethods;
+using WebApplication1.Helper;
 using WebApplication1.Models;
 
 namespace WebApplication1.Areas.AdminArea.Controllers
@@ -115,7 +115,7 @@ namespace WebApplication1.Areas.AdminArea.Controllers
                 return View(teacherUpdateVM);
             }
             string fileName = await file.SaveFile();
-            Helper.DeleteImage(teacher.ImageUrl);
+            Helper.Helper.DeleteImage(teacher.ImageUrl);
             teacherUpdateVM.ImageUrl = fileName;
             teacher.Name = teacherUpdateVM.Name;
             teacher.Position = teacherUpdateVM.Position;

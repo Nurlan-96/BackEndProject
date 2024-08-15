@@ -13,9 +13,12 @@ namespace WebApplication1.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index(int page=1)
         {
-            var courses = _context.Courses.ToList();
+            var courses = await _context.Courses.AsNoTracking().Skip((page-1)*2).Take(3).ToListAsync();
+            var count = _context.Courses.Count();
+            ViewBag.PageCount= (int)Math.Ceiling((decimal)count/3);
+            ViewBag.CurrentPage = page;
             return View(courses);
         }
         public IActionResult Detail(int? id)
@@ -29,7 +32,7 @@ namespace WebApplication1.Controllers
         {
             if (string.IsNullOrWhiteSpace(text))
             {
-                return PartialView("_SearchPartialView", new List<Course>());
+                return BadRequest();
             }
 
             var courses = _context.Courses
@@ -40,7 +43,7 @@ namespace WebApplication1.Controllers
                 .Take(3)
                 .ToList();
 
-            return PartialView("_SearchPartialView", courses);
+            return PartialView("_CoursePartial", courses);
         }
     }
 }

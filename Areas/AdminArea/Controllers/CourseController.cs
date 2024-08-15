@@ -5,7 +5,7 @@ using WebApplication1.Areas.AdminArea.ViewModels;
 using WebApplication1.Areas.AdminArea.ViewModels.Courses;
 using WebApplication1.DAL;
 using WebApplication1.Extensions;
-using WebApplication1.HelperMethods;
+using WebApplication1.Helper;
 using WebApplication1.Models;
 
 namespace WebApplication1.Areas.AdminArea.Controllers
@@ -127,7 +127,7 @@ namespace WebApplication1.Areas.AdminArea.Controllers
                 return View(cuVM);
             }
             string fileName = await file.SaveFile();
-            Helper.DeleteImage(course.ImageUrl);
+            Helper.Helper.DeleteImage(course.ImageUrl);
             cuVM.ImageUrl = fileName;
             course.Name = cuVM.Name;
             course.Description = cuVM.Description;

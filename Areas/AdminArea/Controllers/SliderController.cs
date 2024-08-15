@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication1.Areas.AdminArea.ViewModels.Slider;
 using WebApplication1.DAL;
 using WebApplication1.Extensions;
-using WebApplication1.HelperMethods;
+using WebApplication1.Helper;
 using WebApplication1.Models;
 
 namespace WebApplication1.Areas.AdminArea.Controllers
@@ -58,7 +58,7 @@ namespace WebApplication1.Areas.AdminArea.Controllers
             if (id == null) return BadRequest();
             var slider = await _context.Sliders.FirstOrDefaultAsync(x => x.Id == id);
             if (slider == null) return NotFound();
-            Helper.DeleteImage(slider.ImageUrl);
+            Helper.Helper.DeleteImage(slider.ImageUrl);
             _context.Sliders.Remove(slider);
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");

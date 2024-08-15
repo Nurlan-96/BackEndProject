@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication1.DAL;
-using WebApplication1.HelperMethods;
+using WebApplication1.Helper;
 using WebApplication1.Models;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Areas.AdminArea.ViewModels.EventVM;
@@ -120,7 +120,7 @@ namespace WebApplication1.Areas.AdminArea.Controllers
                 return View(euVM);
             }
             string fileName = await file.SaveFile();
-            Helper.DeleteImage(@event.ImageUrl);
+            Helper.Helper.DeleteImage(@event.ImageUrl);
             euVM.ImageUrl = fileName;
             @event.Name = euVM.Name;
             @event.Description = euVM.Description;

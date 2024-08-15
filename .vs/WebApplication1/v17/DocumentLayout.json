@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|c:\\users\\uncle nurlan\\desktop\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13E367FD-624D-4C7D-B9A7-8A1B788AFB2B}|WebApplication1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\ViewModels\\LoginVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\ViewModels\\LoginVM.cs",
-              "RelativeToolTip": "ViewModels\\LoginVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T08:53:39.308Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T15:16:48.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACIAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T15:52:23.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAAC4AAAAyAAAA",
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:51:39.67Z",
+              "WhenOpened": "2024-08-15T13:56:59.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Uncle Nurlan\\Desktop\\WebApplication1\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Views\\Course\\Index.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAB0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T13:15:44.697Z",
+              "WhenOpened": "2024-08-15T13:47:07.111Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

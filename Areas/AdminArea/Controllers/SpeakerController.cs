@@ -4,7 +4,7 @@ using WebApplication1.Areas.AdminArea.ViewModels;
 using WebApplication1.Areas.AdminArea.ViewModels.EventVM;
 using WebApplication1.DAL;
 using WebApplication1.Extensions;
-using WebApplication1.HelperMethods;
+using WebApplication1.Helper;
 using WebApplication1.Models;
 
 namespace WebApplication1.Areas.AdminArea.Controllers
@@ -97,7 +97,7 @@ namespace WebApplication1.Areas.AdminArea.Controllers
                 return View(scVM);
             }
             string fileName = await file.SaveFile();
-            Helper.DeleteImage(speaker.ImageUrl);
+            Helper.Helper.DeleteImage(speaker.ImageUrl);
             scVM.ImageUrl = fileName;
             speaker.Name = scVM.Name;
             speaker.Position = scVM.Position;

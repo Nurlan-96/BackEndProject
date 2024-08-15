@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="~/css/responsive.css">
     <script src="~/js/vendor/modernizr-2.8.3.min.js"></script>
     <title>@ViewData["Title"]</title>
-    </head>
+</head>
 <body>
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -48,7 +48,7 @@
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a asp-action="index" asp-controller="home" >Home</a>
+                                            <a asp-action="index" asp-controller="home">Home</a>
                                         </li>
                                         <li><a asp-action="index" asp-controller="about">About</a></li>
                                         <li>
@@ -64,6 +64,17 @@
                                             <a asp-action="index" asp-controller="blog">blog</a>
                                         </li>
                                         <li><a asp-action="index" asp-controller="contact">Contact</a></li>
+                                        <li>
+                                            @if (User.Identity.IsAuthenticated)
+                                            {
+                                                <p>@User.Identity.Name</p>
+                                                <a asp-action="logout" asp-controller="account">Logout</a>
+                                            }
+                                            else
+                                            {
+                                                <a asp-action="login" asp-controller="account">Log In</a>
+                                            }
+                                        </li>
                                         <li><a href="#">Buy Now</a>
                                     </ul>
                                 </nav>
@@ -76,7 +87,7 @@
             </div>
         </div>
     </header>
-            @RenderBody()
+    @RenderBody()
     <footer class="footer-area">
         <div class="main-footer">
             <div class="container">

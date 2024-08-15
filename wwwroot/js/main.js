@@ -21,8 +21,30 @@
 		meanScreenWidth: "767",
 		meanMenuContainer: '.mobile-menu'
 	});
-    
-    
+    // course search
+    <script>
+        $(document).ready(function(){
+            $('#searchForm').submit(function (event) {
+                event.preventDefault();
+
+                var searchText = $('input[name="text"]').val();
+
+                $.ajax({
+                    url: '@Url.Action("Search", "Course")',
+                    type: 'GET',
+                    data: { text: searchText },
+                    success: function (result) {
+                        $('#coursesArea').html(result);
+                    },
+                    error: function () {
+                        $('#coursesArea').html('<p>An error occurred while fetching the results.</p>');
+                    }
+                });
+            });
+    });
+    </script>
+    //
+
     /* last  2 li child add class */
     $('ul.menu>li').slice(-2).addClass('last-elements');
 /*------------------------------------

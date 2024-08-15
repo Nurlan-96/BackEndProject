@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Areas.AdminArea.ViewModels.Blogs;
-using WebApplication1.Areas.AdminArea.ViewModels.EventVM;
 using WebApplication1.DAL;
 using WebApplication1.Extensions;
-using WebApplication1.HelperMethods;
 using WebApplication1.Models;
+using WebApplication1.Helper;
 
 namespace WebApplication1.Areas.AdminArea.Controllers
 {
@@ -99,7 +98,7 @@ namespace WebApplication1.Areas.AdminArea.Controllers
                 return View(bcVM);
             }
             string fileName = await file.SaveFile();
-            Helper.DeleteImage(bcVM.ImageUrl);
+            Helper.Helper.DeleteImage(fileName);
             bcVM.ImageUrl = fileName;
             blog.Name = bcVM.Name;
             blog.Content = bcVM.Content;
