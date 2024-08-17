@@ -4,10 +4,10 @@ using WebApplication1.Areas.AdminArea.ViewModels.Blogs;
 using WebApplication1.DAL;
 using WebApplication1.Extensions;
 using WebApplication1.Models;
-using WebApplication1.Helper;
 
 namespace WebApplication1.Areas.AdminArea.Controllers
 {
+    [Area("Admin")]
     public class BlogController : Controller
     {
         private readonly AppDbContext _context;

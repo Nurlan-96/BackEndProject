@@ -20,12 +20,12 @@ namespace WebApplication1.Controllers
         }
         public IActionResult Detail(int? id)
         {
-            var events = _context.Events
+            var @event = _context.Events
         .Include(e => e.SpeakerEvent)
             .ThenInclude(se => se.Speaker)
         .AsNoTracking()
         .FirstOrDefault(b => b.Id == id);
-            return View(events);
+            return View(@event);
         }
     }
 }
