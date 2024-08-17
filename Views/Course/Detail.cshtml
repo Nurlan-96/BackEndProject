@@ -1,6 +1,7 @@
 ﻿@model Course
 @{
     ViewData["Title"] = "Detail";
+    Layout = "_Layout";
 }
 <div class="banner-area-wrapper">
     <div class="banner-area text-center">
@@ -25,7 +26,7 @@
             <div class="col-md-8">
                 <div class="courses-details">
                     <div class="courses-details-img">
-                        <img src="img/course/courses-details.jpg" alt="courses-details">
+                        <img src="~/img/course/courses-details.jpg" alt="courses-details">
                     </div>
                     <div class="course-details-content">
                         <h2>@Model.Name</h2>
@@ -51,10 +52,10 @@
                                 <li>starts <span>@Model.StartDate.ToString("dd MMMM yyyy")</span></li>
                                 <li>duration <span>@Model.Duration Month</span></li>
                                 <li>class duration <span>@Model.ClassDuration hours</span></li>
-                                <li>skill level <span>@Model.SkillLevel</span></li>
-                                <li>language <span>@Model.Language</span></li>
+                                <li>skill level <span>@Model.SkillLevel.Name</span></li>
+                                <li>language <span>@Model.Language.Name</span></li>
                                 <li>student capacity <span>@Model.MaxStudents</span></li>
-                                <li>assesments <span>@Model.Assessment</span></li>
+                                <li>assesments <span>@Model.Assessment.Name</span></li>
                                 <li>teacher <span>@Model.Teacher.Name</span></li>
                             </ul>
                             <h3 class="red">course fee $@Model.Fee</h3>

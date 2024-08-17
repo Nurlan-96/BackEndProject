@@ -21,7 +21,7 @@ namespace WebApplication1.Controllers
         public IActionResult Detail(int? id)
         {
             if (id is null) return NotFound();
-            var teacher = _context.Teachers.AsNoTracking().FirstOrDefault(b => b.Id == id);
+            var teacher = _context.Teachers.AsNoTracking().FirstOrDefault(t => t.Id == id);
             if (teacher == null) return NotFound();
             return View(teacher);
         }

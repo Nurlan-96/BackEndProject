@@ -148,12 +148,21 @@
         });
     });
 }(jQuery));
-// Function to format phone number
 function formatPhoneNumber(number) {
     number = number.toString().replace(/\D/g, '');
-    if (number.length === 11) {
-        return `+1(${number.substring(1, 4)})${number.substring(4, 7)}-${number.substring(7)}`;
+    if (number.length === 8) {
+        return `+1(${number.substring(0, 3)})${number.substring(3, 6)}-${number.substring(6)}`;
     } else {
         return number;
     }
 }
+
+function initializePhoneNumber() {
+    var phoneNumberElement = document.getElementById('phoneNumber');
+    if (phoneNumberElement) {
+        var number = phoneNumberElement.getAttribute('data-number');
+        phoneNumberElement.textContent = formatPhoneNumber(number);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initializePhoneNumber);

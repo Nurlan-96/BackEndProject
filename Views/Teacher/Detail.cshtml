@@ -1,6 +1,6 @@
 ﻿@model Teacher
 @{
-    Layout = "~/Views/Shared/_Layout2.cshtml";
+    Layout = "_Layout";
     ViewData["Title"] = "Detail";
 }
 
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-md-5 col-sm-5 col-xs-12">
                 <div class="teacher-details-img">
-                    <img src="img/teacher/teacher-details.jpg" alt="teacher">
+                    <img src="~/img/teacher/@Model.ImageUrl" alt="teacher">
                 </div>
             </div>
             <div class="col-md-7 col-sm-7 col-xs-12">
@@ -49,7 +49,10 @@
                 <div class="teacher-contact">
                     <h4>contact information</h4>
                     <p><span>mail me : </span>@Model.Email</p>
-                    <p><span>make a call : </span><%= formatPhoneNumber(@Model.Number) %></p>
+                    <p>
+                        <span>make a call: </span>
+                        <span id="phoneNumber" data-number="<%= @Model.Number %>"></span>
+                    </p>
                     <p><span>skype : </span> stuart.k</p>
                     <ul>
                         <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="bi bi-telephone-fill"></i></a></li>

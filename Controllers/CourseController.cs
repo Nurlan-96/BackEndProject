@@ -23,9 +23,16 @@ namespace WebApplication1.Controllers
         public IActionResult Detail(int? id)
         {
             if (id is null) return NotFound();
-            var courses = _context.Courses.AsNoTracking().FirstOrDefault(b => b.Id == id);
-            if (courses == null) return NotFound();
-            return View(courses);
+            var course =
+                _context.Courses
+                .AsNoTracking()
+                .Include(t=>t.Teacher)
+                .Include(s=>s.SkillLevel)
+                .Include(a=>a.Assessment)
+                .Include(l=>l.Language)
+                .FirstOrDefault(b => b.Id == id);
+            if (course == null) return NotFound();
+            return View(course);
         }
         public IActionResult Search(string text)
         {
